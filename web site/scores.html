@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Calalta Skating Club Wall of Fame </title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      <title>Calalta Skating Club Wall of Fame </title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/scores.css">
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
+ 
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+ 
+      <script src="js/scores.js"></script> 
+    
     </head>
     
     <body>
@@ -17,11 +24,11 @@
                 <!--- <a class="navbar-brand" href="#">Calalta Skating Club<br />Wall Of Fame</a> --->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="scores.html">Top Scores</a>
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Top Scores  <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="goe.html">&#43;2 GOE</a>
@@ -45,6 +52,55 @@
                 <div style="text-align: center">
                     <img src="images/calalta.png" />
                     <h1><b>Wall Of Fame</b></h1>
+                    <h2><b>Top Scores</b></h2>
                 </div>
             </div>
+            <!--- Body --->
+            <div>
+              <p>
+                With the inception of the CPC judging system we are now able to track performances over seasons and mark the outstanding achievements of our athletes in real measurable terms. The following outlines the process for marking these high scores.
+							</p>
+							<p>
+								High scores are tracked in the three disciplines of Singles, Pairs and Ice Dance. Due to the significant changes from previous seasons in well balanced program criteria, principles of calculation and the scale of values, a similar set of records has no not yet been established for Synchronized Skating. The scores in Synchronized are not yet statistically comparable from season to season.
+							</p>
+							<p>
+								High scores are recorded in each discipline for Short Program/Dance, Free Program/Dance, Pattern Dance, and Total Competition score. In addition the top Technical and Compenent score for each segment is tracked. A Calalta record can be set at any sanctioned competition using CPC.
+							</p>
+							<p>
+								Calalta records are recorded in all CPC scored events from STAR 5 to Senior and includes Team Events, Adult Comptition, and Intrepretive. 
+							</p>
+							<p>
+								The Calalta Records list shall be maintained by the Calalta office. It is the responsability of each skater to report when a record has been set. Please send a copy of the Skater Detail sheet to <a href="mailto:bradley.hazelton@skatecoach.ca">Bradley Hazelton</a> for a record to be updated
+							</p>
+              
+              <ul class='tabs'>
+                <li><a href='#competitive'>Competitive (Pre-Juvenile to Senior)</a></li>
+                <li><a href='#starskate'>STARSkate (Star 5 to Gold)</a></li>
+                <li><a href='#adult'>AdultSkate</a></li>
+                <li><a href='#int_tri'>Intrepretive and Triathalon</a></li>
+                <li><a href='#team'>STARSkate Team Events (Star 5 to Gold)</a></li>
+              </ul>
+              <div id='competitive'>
+                <p>Competitive</p>
+              </div>
+              <div id='starskate'>
+                <p>STARSkate</p>
+              </div>
+              <div id='adult'>
+                <p>AdultSkate</p>
+              </div>
+              <div id='int_tri'>
+                <p>Intrepretive and Triathalon</p>
+              </div>
+              <div id='team'>
+                <p>STARSkate Team</p>
+              </div>
+              
+            </div>
+            
+            
+        </div>
+    </body>
+</html>
+
     
